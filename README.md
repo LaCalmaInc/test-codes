@@ -1,1 +1,1 @@
-# Recoleccion de codigos hechos en python
+# Recoleccion de codigos
