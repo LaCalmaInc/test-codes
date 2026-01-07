@@ -60,6 +60,11 @@
   color: var(--text-primary);
 }
 
+.Separator {
+  width: 1px;
+  background-color: red;
+}
+
 .ctas {
   display: flex;
   flex-direction: row;
