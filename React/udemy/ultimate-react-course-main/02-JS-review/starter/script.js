@@ -142,3 +142,28 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+
+const book = getBook(2);
+const { title, author, publicationDate, genres } = book;
+
+const [ primaryGenre, secondaryGenre, ...otherGenres ] = genres;
+
+const updatedArray = [...genres, "classic"];
+
+const upadtedGenres = genres.map((genre)=> {
+  if (genre === genres[0]) {
+    return genre.toUpperCase();
+  }
+  return genre;
+})
+const books = getBooks();
+
+
+const filterBooks = books.filter((book) => book.id !== 3);
+const updateFiltered = filterBooks.map((book)=>{
+  if (book.id === 2){
+    return {...book, pages: 350};
+  }
+  return book;
+})
+updateFiltered
