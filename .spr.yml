@@ -4,7 +4,7 @@ githubHost: github.com
 githubRemote: origin
 githubBranch: main
 requireChecks: true
-requireApproval: true
+requireApproval: false
 mergeMethod: rebase
 mergeQueue: false
 forceFetchTags: false
