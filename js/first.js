@@ -9,3 +9,4 @@ const func = (num1, num2)=>{
 console.log(func(1, 2));
 console.log("Hello world4");  
 console.log(2)
+console.log(3)
