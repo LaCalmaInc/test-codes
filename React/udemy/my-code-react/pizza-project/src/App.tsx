@@ -1,10 +1,13 @@
 import "./App.css";
-
+import { pizzaData } from "./data";
+import { Pizza } from "./components";
 function App() {
+  const pizza1 = pizzaData[0];
   return (
     <>
-      <h1>Hello World</h1>
-      <h2>Welcome to the Pizza Project</h2>
+      <h1>Fast React Pizza Co.</h1>
+      <h2>Our Menu</h2>
+      <Pizza {...pizza1} />
     </>
   );
 }
