@@ -10,6 +10,7 @@ function App() {
         <h2>Our Menu</h2>
         <p>A</p>
         <p>B</p>
+        <p>C</p>
       </div>
       <Pizza {...pizza1} />
     </>
