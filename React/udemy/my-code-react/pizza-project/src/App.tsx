@@ -9,6 +9,7 @@ function App() {
         <h1 >Fast React Pizza Co.</h1>
         <h2>Our Menu</h2>
         <p>A</p>
+        <p>B</p>
       </div>
       <Pizza {...pizza1} />
     </>
